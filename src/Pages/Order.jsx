@@ -4,7 +4,7 @@ const Page = () => {
 
     return (
         <>
-            Contact Us
+            Order Page
         </>
     )
 }
