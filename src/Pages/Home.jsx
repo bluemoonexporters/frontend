@@ -1,11 +1,34 @@
+<<<<<<< HEAD
 import { Container, Carousel } from 'react-bootstrap'
 import crops_img from "../utils/img/crops.png"
 import orange_img from "../utils/img/orange.png"
 import flower_img from "../utils/img/flower.png"
+=======
+// import { Container, Carousel} from 'react-bootstrap'
+// import crops_img from "../utils/img/crops.png"
+// import orange_img from "../utils/img/orange.png"
+// import flower_img from "../utils/img/flower.png"
+import './Home.css'
+>>>>>>> b7adedf (Image Section)
 
 const Page = () => {
     return (
         <>
+        <div className='home-page'>
+            <header className='w-100 d-flex align-items-center text-light shadow'>
+                <div className='container'>
+                    <div className='row'>
+                        <div className='col-sm-6 d-flex d-sm-block flex-column align-items-center'>
+                            <br/><br/><br/><br/><br/><br/><br/><br/>
+                            <h2 className='mb-0 text-white fw-bold'>Welcome to</h2>
+                            <h1 className='mb-5 text-white fw-bold text-center text-sm-start'>Bluemoon Exporters</h1>
+                            <br/><br/><br/><br/><br/><br/><br/><br/>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+        {/*
         <Container>
             <Carousel className='text-light'>
                 <Carousel.Item>
@@ -31,6 +54,7 @@ const Page = () => {
                 </Carousel.Item>
             </Carousel>
         </Container>
+        */}
         </>
     )
 }

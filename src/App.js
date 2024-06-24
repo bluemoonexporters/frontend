@@ -9,7 +9,7 @@ function App() {
       <Navbar>
         <Container>
             <Navbar.Brand>
-              <Link to="/" className='navbar-brand'>Bluemoon Exporters</Link>            
+              <Link to="/" className='navbar-brand text-uppercase fw-bold'>Bluemoon Exporters</Link>            
             </Navbar.Brand>
             <Navbar.Toggle aria-controls='basic-navbar-nav'/>
             <Navbar.Collapse id='basic-navbar-nav'>            
