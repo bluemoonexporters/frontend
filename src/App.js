@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Bluemoon Exporters
+          Under Maintenance
         </p>
       </header>
     </div>
