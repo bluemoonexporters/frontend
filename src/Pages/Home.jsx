@@ -1,4 +1,4 @@
-import { Container, Carousel} from 'react-bootstrap'
+import { Container, Carousel } from 'react-bootstrap'
 import crops_img from "../utils/img/crops.png"
 import orange_img from "../utils/img/orange.png"
 import flower_img from "../utils/img/flower.png"
@@ -7,7 +7,7 @@ const Page = () => {
     return (
         <>
         <Container>
-            <Carousel class="text-light">
+            <Carousel className='text-light'>
                 <Carousel.Item>
                     <img className='d-block w-100' src={crops_img} alt='First slide'/>
                     <Carousel.Caption>
