@@ -1,10 +1,10 @@
-import "bootstrap/dist/css/bootstrap.min.css"
 import './App.css';
-import Landing from './Pages/Landing'
+import { LandingPage } from './Pages'
+// import { Link, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <Landing/>
+    <LandingPage/>
   );
 }
 
