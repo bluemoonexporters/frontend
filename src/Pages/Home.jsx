@@ -1,15 +1,8 @@
-<<<<<<< HEAD
-import { Container, Carousel } from 'react-bootstrap'
-import crops_img from "../utils/img/crops.png"
-import orange_img from "../utils/img/orange.png"
-import flower_img from "../utils/img/flower.png"
-=======
 // import { Container, Carousel} from 'react-bootstrap'
 // import crops_img from "../utils/img/crops.png"
 // import orange_img from "../utils/img/orange.png"
 // import flower_img from "../utils/img/flower.png"
 import './Home.css'
->>>>>>> b7adedf (Image Section)
 
 const Page = () => {
     return (
