@@ -4,7 +4,7 @@ const Page = () => {
 
     return (
         <>
-            Working
+            Contact Us
         </>
     )
 }

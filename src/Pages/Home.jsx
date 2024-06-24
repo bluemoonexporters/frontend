@@ -4,7 +4,7 @@ const Page = () => {
 
     return (
         <>
-            Working
+            Home Page
         </>
     )
 }
