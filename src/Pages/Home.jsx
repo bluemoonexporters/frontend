@@ -1,4 +1,4 @@
-import { HomeSectionA, HomeSectionB, HomeSectionC } from '../Components';
+import { HomeSectionA, HomeSectionB, HomeSectionC, HomeAbout } from '../Components';
 
 const Page = () => {
     return (
@@ -6,6 +6,7 @@ const Page = () => {
             <HomeSectionA/>
             <HomeSectionB/>
             <HomeSectionC/>
+            <HomeAbout/>
         </>
     )
 }

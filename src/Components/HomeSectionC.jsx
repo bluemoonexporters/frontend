@@ -4,9 +4,9 @@ import pepper from "../utils/img/pepper.jpg"
 
 const Component = () => {
     return(
-        <>
+        <div class="bg-light">
             <div className="container">
-                <h3 className="text-center text-primary mt-5 pb-5">WHAT DO WE DELIVER ?</h3>
+                <h3 className="text-center text-primary py-5">WHAT DO WE DELIVER ?</h3>
                 <div class='row text-center'>
                     <div className="col-md-4">
                         <div class="card m-2" style={{Width: '18rem'}}>
@@ -33,9 +33,9 @@ const Component = () => {
                         </div>
                     </div>
                 </div>
-                <h6 className="text-center">And every other kind of agricultural products.</h6>
+                <p className="text-end fst-italic p-3 pb-5"> - And every other kind of agricultural products.</p>
             </div>
-        </>
+        </div>
     )
 }
 
