@@ -8,7 +8,7 @@ const Component = () => {
             <div className="container">
                 <h3 className="text-center text-primary mt-5 pb-5">WHAT DO WE DELIVER ?</h3>
                 <div class='row text-center'>
-                    <div className="col-12 col-md-4">
+                    <div className="col-md-4">
                         <div class="card m-2" style={{Width: '18rem'}}>
                             <img class="card-img-top" src={potato} alt="Card"/>
                             <div class="card-body">
@@ -16,7 +16,7 @@ const Component = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-12 col-md-4">
+                    <div className="col-md-4">
                         <div class="card m-2" style={{Width: '18rem'}}>
                             <img class="card-img-top" src={onion} alt="Card"/>
                             <div class="card-body">
@@ -24,7 +24,7 @@ const Component = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-12 col-md-4">
+                    <div className="col-md-4">
                         <div class="card m-2" style={{Width: '18rem'}}>
                             <img class="card-img-top" src={pepper} alt="Card"/>
                             <div class="card-body">
