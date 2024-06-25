@@ -4,7 +4,7 @@ import pepper from "../utils/img/pepper.jpg"
 
 const Component = () => {
     return(
-        <div class="bg-light">
+        <div style={{backgroundColor: "#f3f6fa"}}>
             <div className="container">
                 <h3 className="text-center text-primary py-5">WHAT DO WE DELIVER ?</h3>
                 <div class='row text-center'>
