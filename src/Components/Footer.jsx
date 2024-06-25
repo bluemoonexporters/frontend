@@ -24,7 +24,7 @@ const Footer = () => {
                 </div>
             </div>
             <div style={{ backgroundColor:"#d4d4d4"}}>
-                <p className='p-3 m-0 text-center'>copyright @ 2024 Bluemoon Exporters. All Rights Reserved.</p>
+                <p className='p-3 m-0 text-center'>Copyright @ 2024 Bluemoon Exporters. All Rights Reserved.</p>
             </div>
         </div>
     )
