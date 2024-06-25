@@ -33,6 +33,7 @@ const Component = () => {
                         </div>
                     </div>
                 </div>
+                <h6 className="text-center">And every other kind of agricultural products.</h6>
             </div>
         </>
     )
