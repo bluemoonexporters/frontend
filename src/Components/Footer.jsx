@@ -9,7 +9,7 @@ const Footer = () => {
                     <div class="col-xs-12 col-lg-4">
                         <h5 class="mb-3">
                             <img src={logo} alt="logo" width="30" height="24"></img>
-                            <span> Bluemoon <span className='text-primary'>Exporters</span></span>
+                            <span> BlueMoon <span className='text-primary'>Exporters</span></span>
                         </h5>
                         <ul class="list-unstyled text-muted">
                             <li class="list-group-item">
