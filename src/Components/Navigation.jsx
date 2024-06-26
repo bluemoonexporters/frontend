@@ -1,21 +1,30 @@
-import { Container, Nav, Navbar} from 'react-bootstrap'
+import { Link } from 'react-router-dom';
+import logo from "../utils/img/logo192.png"
 
 const Component = () => {
     return(
         <>
-        <Navbar>
-            <Container>
-                <Navbar.Toggle aria-controls='basic-navbar-nav'/>
-                <Navbar.Collapse id='basic-navbar-nav'>            
-                    <Nav className="me-auto justify-content-end w-100">
-                        <Nav.Link href="/" className='active text-uppercase fw-bold'>Home</Nav.Link>
-                        <Nav.Link href="/order" className='text-uppercase fw-bold'>Order</Nav.Link>
-                        <Nav.Link href="/about_us" className='text-uppercase fw-bold'>About Us</Nav.Link>
-                        <Nav.Link href="/contact_us" className='text-uppercase fw-bold'>Contact Us</Nav.Link>
-                    </Nav>
-                </Navbar.Collapse>
-            </Container>
-        </Navbar>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container">
+                    <div className="navbar-brand">
+                        <img src={logo} alt="logo" width="30" height="24"></img>
+                        <Link to="/" className='navbar-brand text-uppercase fw-bold'> Bluemoon <span className='text-primary'>Exporters</span></Link>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarToggle">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/about_us">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/contact_us">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
         </>
     )
 }

@@ -26,7 +26,6 @@ const Footer = () => {
                     </div>
                     <div class="col-xs-12 col-lg-4">
                         <h5 class="mb-3">Useful links</h5>
-                        <Link className="text-decoration-none text-muted" to="/">Home</Link><br/>
                         <Link className="text-decoration-none text-muted" to="/about_us">About Us</Link><br/>
                         <Link className="text-decoration-none text-muted" to="/contact_us">Contact Us</Link><br/><br/><br/>
                     </div>
