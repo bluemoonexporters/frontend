@@ -35,7 +35,7 @@ const Footer = () => {
                             <Link className="text-decoration-none text-primay p-3" target="_blank" to="https://api.whatsapp.com/send?phone=917098313001"><i class="bi bi-whatsapp"></i></Link>
                             <Link className="text-decoration-none text-primay p-3" target="_blank" to="https://www.facebook.com/profile.php?id=100011200062946"><i class="bi bi-facebook"></i></Link>
                             <Link className="text-decoration-none text-primay p-3" target="_blank" to="https://www.instagram.com/deep_choudhury05"><i class="bi bi-instagram"></i></Link>
-                            <Link className="text-decoration-none text-primay p-3" target="_blank" to="/"><i class="bi bi-envelope-at-fill"></i></Link>
+                            <Link className="text-decoration-none text-primay p-3" target="_blank" to="mailto:deepchoudhurybai@gmail.com"><i class="bi bi-envelope-at-fill"></i></Link>
                         </div>
                         <br/><br/>
                     </div>
